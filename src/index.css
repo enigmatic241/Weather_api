@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.app{
+  background:url('./climate1.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+.search-box{
+ width:100%;
+ margin : 0 0 75 px;
+
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  text-decoration:underline;
+  text-shadow: aqua;
+  color:brown;
+
+}
+.search-box .search-bar {
+  
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: none;
+  border: none;
+  outline: none;
+  background-color:aqua;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  color: #313131;
+  font-size: 20px;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgb(195, 235, 228);
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+  padding: 25px;
+}
+.location-box .city {
+  padding-top: 30px;
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  padding-top: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temperature {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+
+  padding: 15px 25px;
+
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+
+}
+
+.weather-box .weather {
+  font-family: sans-serif;
+  color:white;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
