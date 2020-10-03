@@ -1,3 +1,4 @@
-<h1>Weather Api using Create-react-app</h1>
+# Weather Api using Create-react-app
 
+A Weather forecast web App.
 
